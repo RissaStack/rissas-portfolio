@@ -5,11 +5,33 @@
 }
 
 :root {
-  --light: #f5f5f5;
-  --dark: #4c6374;
-  --darker: #1e2a32;
+  --light: #E8EAED;
+  --dark: #AAAEA4;
+  --darker: #3A372C;
 }
 
 html, body {
-  height: 100%;
+  min-height: 100%;
 } 
+
+.wrapper {
+  background-color: var(--light);
+  color: var(--darker);
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+main {
+  min-height: calc(100vh - 250px);
+}
+
+a {
+  text-decoration: none;
+  color: var(--darker);
+}
+
+h1 {
+  font-family: 'Bricolage Grotesque', sans-serif;
+}
