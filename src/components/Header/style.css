@@ -1,5 +1,6 @@
 header {
-    height: 200px;
+    height: 150px;
+    background-color: var(--darker);
 }
 
 header h1 {

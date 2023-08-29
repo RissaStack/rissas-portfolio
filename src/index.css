@@ -5,9 +5,11 @@
 }
 
 :root {
-  --light: #E8EAED;
-  --dark: #AAAEA4;
-  --darker: #3A372C;
+  --light: #d8dee9;
+  --dark: #8f84ae;
+  --darker: #5b618a;
+  --accent: #fff585;
+  --accent-dark: #32a387;
 }
 
 html, body {
@@ -15,8 +17,8 @@ html, body {
 } 
 
 .wrapper {
-  background-color: var(--light);
-  color: var(--darker);
+  background-color: var(--dark);
+  color: white;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 600;
@@ -29,9 +31,23 @@ main {
 
 a {
   text-decoration: none;
-  color: var(--darker);
+  color: var(--light);
+  opacity: 0.5;
+  transition: all 0.3s ease-in-out;
 }
 
-h1 {
+a:hover {
+  opacity: 1;
+  color: var(--accent);
+  padding: 0 5px;
+}
+
+h1, h2 {
   font-family: 'Bricolage Grotesque', sans-serif;
+  font-style: italic;
+  color: #fff585;
+}
+
+.col .card .card-img-overlay h3 {
+  color: black;
 }

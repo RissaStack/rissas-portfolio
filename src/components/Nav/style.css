@@ -1,5 +1,27 @@
 
-header nav a {
+header .nav {
+    /* font-size: 1rem; */
+}
+
+header .nav-link {
     text-decoration: none;
-    color: var(--darker);
+    color: var(--light);
+    opacity: 0.8;
+}
+
+header .nav-link:hover {
+    color: var(--accent);
+    padding: 12px;
+    opacity: 1;
+}
+
+header .nav-link.active {
+    color: var(--accent);
+    cursor: default;
+}
+
+#page-title {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-style: italic;
+    color: #422040;
 }

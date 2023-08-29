@@ -1,8 +1,9 @@
 import React from 'react';
+import './style.css';
 
 const Nav = ({pages, currentPage, setCurrentPage}) => {
     return (
-    <nav className="nav d-flex justify-content-between align-items-center">
+    <nav id="page-title" className="nav d-flex justify-content-between align-items-center">
         {pages.map((page) => (
             <a 
             href="/#"

@@ -11,11 +11,11 @@ function App() {
     <div className="wrapper">
       <Header pages={pages} currentPage={currentPage} setCurrentPage={setCurrentPage} />
       <main>
-        <Page />
+        <Page currentPage={currentPage} />
       </main>
       <Footer />
     </div>
-  )
+  );
 }
 
 export default App;
