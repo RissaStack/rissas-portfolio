@@ -1,11 +1,5 @@
 export const projects = [
     {
-        name: "Half-Price Galaxy",
-        description: "A full stack e-commerce website that allows users to purchase items from the store and view their order history. Admin can add, update, and delete products from the store. Admin can also view all orders and update their status.",
-        link: "https://www.google.com/",
-        repo: "https://github.com/ShannaRenee/Half-Price-Galaxy"
-    },
-    {
         name: "Lizard Coin Tracker",
         description: "A cryptocurrency tracker that allows users to search for a cryptocurrency and see its current price, market cap, and 24 hour change. Users can also save cryptocurrencies to their watchlist and see the current price of their saved cryptocurrencies.",
         link: "https://rissastack.github.io/Lizard-Coin-Tracker/",
@@ -22,5 +16,23 @@ export const projects = [
         description: "A daily planner that allows users to save events for each hour of the day. The planner runs in the browser and features dynamically updated HTML and CSS powered by jQuery.",
         link: "https://rissastack.github.io/Daily-Schedule/",
         repo: "https://github.com/RissaStack/Daily-Schedule"        
-    }
+    },
+    {
+        name: "Password Generator",
+        description: "This application allows you to generate a password to use. You can tell it what type of characters and how long you want it to be and it will generate a password for you.",
+        link: "https://rissastack.github.io/Generating-Password/",
+        repo: "https://github.com/RissaStack/Generating-Password"
+    },
+    {
+        name: "Logo Generator",
+        description: "This application allows you to generate a logo for your company. You can tell it what shape and text you want and it will generate a logo for you.",
+        link: "https://drive.google.com/file/d/1JyqxsL2n1TgD9g_PLV1xaWRJr08luT_s/view",
+        repo: "https://github.com/RissaStack/logo-maker"
+    },
+    {
+        name: "Half-Price Galaxy",
+        description: "A full stack e-commerce website that allows users to purchase items from the store and view their order history. Admin can add, update, and delete products from the store. Admin can also view all orders and update their status.",
+        link: "https://www.google.com/",
+        repo: "https://github.com/ShannaRenee/Half-Price-Galaxy"
+    },
 ];

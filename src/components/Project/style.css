@@ -2,10 +2,25 @@
     color: var(--darker);
 }
 
-/* .name-bt  {
-    padding-right: 3rem;
-} */
+.name-bt  {
+    float: inline-start;
+}
 
-/* .git-bt {
-    margin-left: 30px
-} */
+.git-bt {
+    float: inline-end
+}
+
+.btn:hover {
+    color: var(--darker);
+    background-color: var(--accent);
+    padding: 1px 10px 1px 10px;
+}
+
+.card-body {
+    background-color: var(--light);
+}
+
+.card-body, a {
+    color: var(--darker);
+}
+

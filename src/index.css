@@ -31,12 +31,19 @@ main {
 
 a {
   text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+a, li {
   color: var(--light);
   opacity: 0.5;
   transition: all 0.3s ease-in-out;
 }
 
-a:hover {
+a:hover, li:hover {
   opacity: 1;
   color: var(--accent);
   padding: 0 5px;

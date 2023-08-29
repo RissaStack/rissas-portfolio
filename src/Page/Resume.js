@@ -3,8 +3,10 @@ import './style.css'
 
 const Resume = () => {
   return <div className="skills">
-    <p>
-      <a className="btn btn-secondary resume-dl" href="https://docs.google.com/document/d/1GKXr1UIP-YG6zcqc97H0nIrm0sKZ0dGRvPLo3ejanzM/edit#heading=h.aagfqklm9zwt">Download My Resume</a>
+    <p className="resume">
+      <button type="button" class="btn btn-secondary btn-lg">
+      <a href="https://docs.google.com/document/d/1GKXr1UIP-YG6zcqc97H0nIrm0sKZ0dGRvPLo3ejanzM/edit#heading=h.aagfqklm9zwt">Download My Resume</a>
+      </button>
     </p>
     <div className="row mt-5">
       <div className="col-12 col-md-6 d-flex flex-column align-items-center mb-5">

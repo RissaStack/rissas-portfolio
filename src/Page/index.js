@@ -19,7 +19,7 @@ const Page = ({currentPage}) => {
                 return <About />;
         }
     };
-    return <section className="constainer">
+    return <section className="container py-4">
         <h2 className="mb-3">{currentPage}</h2>
         {renderPage(currentPage)}
     </section>

@@ -18,15 +18,16 @@ main h2 {
     margin-right: 10rem;
 }
 
+form .submit:hover {
+    background-color: var(--accent);
+    color: var(--darker)
+}
+
 /* Resume Page */
 .skills .list-group-item {
     background-color: var(--accent-light);
     color: var(--darker);
     border: none;
-}
-
-.resume-dl {
-    margin-left: 40rem;
 }
 
 .end-title {

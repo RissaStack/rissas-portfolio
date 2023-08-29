@@ -1,4 +1,6 @@
-import React, {useState} from 'react';
+import React, {useState, useRef} from 'react';
+import emailjs from '@emailjs/browser';
+
 import './style.css'
 
 const Contact = () => {
@@ -7,6 +9,10 @@ const Contact = () => {
     email: '', 
     message: '',
   });
+
+  const [btnText, setBtnText] = useState('Submit');
+
+  const form = useRef();
 
   const handleChange = (event) => {
     event.preventDefault();
@@ -17,9 +23,27 @@ const Contact = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     console.log(formState);
+    emailjs
+      .sendForm(
+        'service_umgnucg', 
+        'template_hgnp6ds', 
+        form.current, 
+        'cai32IJxYpG3e8lPe'
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setBtnText('Message Sent!');
+          setTimeout(() => {
+            window.location.reload();
+          } , 3000);
+        }, (error) => {
+          console.log(error.text);
+          setBtnText('Failed to Send');
+        });
   }
   return (
-    <form onSubmit={handleSubmit} className="form">
+    <form ref={form} onSubmit={handleSubmit} className="form">
       <div className="mb-3">
         <label htmlFor="name" className="form-label">
           Name
@@ -58,8 +82,8 @@ const Contact = () => {
           onChange={handleChange}
         ></textarea>
       </div>
-      <button type="submit" className="btn btn-secondary">
-        Submit
+      <button type="submit" className="btn btn-secondary submit">
+        {btnText}
       </button>
     </form>
   );
