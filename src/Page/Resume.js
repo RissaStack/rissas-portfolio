@@ -5,7 +5,7 @@ const Resume = () => {
   return <div className="skills">
     <p className="resume">
       <button type="button" class="btn btn-secondary btn-lg">
-      <a href="https://docs.google.com/document/d/1GKXr1UIP-YG6zcqc97H0nIrm0sKZ0dGRvPLo3ejanzM/edit#heading=h.aagfqklm9zwt">Download My Resume</a>
+      <a href="https://www.canva.com/design/DAFtI8CaCMM/I6OklLn6XdCHJrynQIHozA/edit?utm_content=DAFtI8CaCMM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Download My Resume</a>
       </button>
     </p>
     <div className="row mt-5">

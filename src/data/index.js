@@ -31,7 +31,7 @@ export const projects = [
     },
     {
         name: "Half-Price Galaxy",
-        description: "A full stack e-commerce website that allows users to purchase items from the store and view their order history. Admin can add, update, and delete products from the store. Admin can also view all orders and update their status.",
+        description: "PLACE HOLDER FOR MY FINAL PROJECT FROM THE CLASS>>>A full stack e-commerce website that allows users to purchase items from the store and view their order history. Admin can add, update, and delete products from the store. Admin can also view all orders and update their status.",
         link: "https://www.google.com/",
         repo: "https://github.com/ShannaRenee/Half-Price-Galaxy"
     },
