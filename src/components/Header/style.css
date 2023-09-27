@@ -4,19 +4,9 @@ header {
     background-color: var(--darker);
 }
 
-/* I may not want to use a header image, but if I do, I'll need to add this back in. */
-
-/* header img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 70%;
-    height: 10%;
-    z-index: 0;
-} */
 
 header h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     letter-spacing: 0.2rem;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }

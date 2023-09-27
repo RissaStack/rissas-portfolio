@@ -18,3 +18,4 @@ const Nav = ({pages, currentPage, setCurrentPage}) => {
 };
 
 export default Nav;
+

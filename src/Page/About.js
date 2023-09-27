@@ -5,7 +5,8 @@ const About = () => {
     <>
     <div className="d-flex align-items-center">
       <i className="fas fa-user-circle me-4"></i>
-      {/* <img src="../../assets/projects/rissa.jpg" alt="Larissa Stack" className="img-fluid rounded-circle" width="200px" height="200px" /> */}
+      {/* <img src="../../assets/projects/rissa.jpg" alt="Larissa Stack" class="img-fluid rounded-circle" width="200px" height="200px" /> */}
+
       <p>Hello! My name is Larissa Stack. I go by Rissa. I am an inspiring front-end web developer. I just graduated the Full Stack Coding Bootcamp at Arizona University. While taking the course, I found that I love working on the front-end. What do I love about it? WELL... creating visually appealing designs and being creative are two of my favorite things to do. I want to help make applications more user friendly by applying styling that just makes sense!</p>
       </div>
       <br></br>

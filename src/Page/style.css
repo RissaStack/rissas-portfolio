@@ -26,9 +26,10 @@ form .submit:hover {
 /* Resume Page */
 .skills .list-group-item {
     background-color: var(--accent-light);
-    color: var(--darker);
+    color: var(--lightest);
     border: none;
 }
+
 
 .end-title {
     text-align: center;

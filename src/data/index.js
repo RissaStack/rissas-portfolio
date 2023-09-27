@@ -29,10 +29,10 @@ export const projects = [
         link: "https://drive.google.com/file/d/1JyqxsL2n1TgD9g_PLV1xaWRJr08luT_s/view",
         repo: "https://github.com/RissaStack/logo-maker"
     },
-    {
-        name: "Half-Price Galaxy",
-        description: "PLACE HOLDER FOR MY FINAL PROJECT FROM THE CLASS>>>A full stack e-commerce website that allows users to purchase items from the store and view their order history. Admin can add, update, and delete products from the store. Admin can also view all orders and update their status.",
-        link: "https://www.google.com/",
-        repo: "https://github.com/ShannaRenee/Half-Price-Galaxy"
-    },
+    // {
+    //     name: "Half-Price Galaxy",
+    //     description: "PLACE HOLDER FOR MY FINAL PROJECT FROM THE CLASS>>>A full stack e-commerce website that allows users to purchase items from the store and view their order history. Admin can add, update, and delete products from the store. Admin can also view all orders and update their status.",
+    //     link: "https://www.google.com/",
+    //     repo: "https://github.com/ShannaRenee/Half-Price-Galaxy"
+    // }, COMING SOON
 ];

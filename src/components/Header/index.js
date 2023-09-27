@@ -20,3 +20,4 @@ const Header = ({pages, currentPage, setCurrentPage}) => {
 };
 
 export default Header;
+
