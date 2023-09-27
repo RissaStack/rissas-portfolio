@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/rissas-portfolio/static/css/main.c87ebabc.css",
+    "main.js": "/rissas-portfolio/static/js/main.bd8c1a5c.js",
+    "static/media/Half-Price Galaxy.jpg": "/rissas-portfolio/static/media/Half-Price Galaxy.ef4fbe8638f300ad62ae.jpg",
+    "static/media/flowers.jpg": "/rissas-portfolio/static/media/flowers.726239e933b170c6e464.jpg",
+    "static/media/Lizard Coin Tracker.jpg": "/rissas-portfolio/static/media/Lizard Coin Tracker.7c825932752658f0a931.jpg",
+    "static/media/rissa.jpg": "/rissas-portfolio/static/media/rissa.1c799b156bc31a32c784.jpg",
+    "static/media/Daily Schedule.jpg": "/rissas-portfolio/static/media/Daily Schedule.43f5be87fb4d6924355e.jpg",
+    "static/media/Password Generator.jpg": "/rissas-portfolio/static/media/Password Generator.f0f90881d7b765acdcf8.jpg",
+    "static/media/Note Taker.jpg": "/rissas-portfolio/static/media/Note Taker.581ab0dbc8ad24387c28.jpg",
+    "static/media/Logo Generator.jpg": "/rissas-portfolio/static/media/Logo Generator.baeb33609a7e37415147.jpg",
+    "index.html": "/rissas-portfolio/index.html",
+    "main.c87ebabc.css.map": "/rissas-portfolio/static/css/main.c87ebabc.css.map",
+    "main.bd8c1a5c.js.map": "/rissas-portfolio/static/js/main.bd8c1a5c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c87ebabc.css",
+    "static/js/main.bd8c1a5c.js"
+  ]
+}
